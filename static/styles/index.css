@@ -1,0 +1,49 @@
+/* static/styles/index.css */
+
+/* Use the Poppins font */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Title animation */
+.animated-title {
+    font-size: 3rem;
+    font-weight: 700;
+    animation: colorChange 3s infinite;
+}
+
+/* Keyframes for color animation */
+@keyframes colorChange {
+    0% {
+        color: #1E90FF; /* DodgerBlue */
+    }
+    50% {
+        color: #87CEFA; /* LightSkyBlue */
+    }
+    100% {
+        color: #4682B4; /* SteelBlue */
+    }
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
